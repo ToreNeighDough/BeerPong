@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -11,10 +12,12 @@ public class player : MonoBehaviour
     public GameObject[] cubes;
     public Material[] cubeColours;
     private int number;
+    private bool shotTaken;
 
     // Use this for initialization
     void Start()
     {
+        shotTaken = false;
         power = 0;
         number = 0;
         InvokeRepeating("PowerBar", 1, .05f);
@@ -22,20 +25,36 @@ public class player : MonoBehaviour
 
     private void PowerBar()
     {
+        
         cubes[number].GetComponent<MeshRenderer>().material = cubeColours[0];
         number++;
 
-        if(number > cubes.Length)
+        if(number >= cubes.Length)
         {
-            number = 29;
+            number = 28;
+            CancelInvoke("PowerBar");
+            InvokeRepeating("PowerBarTwo", .05f, .05f);
+        }
+    }
+
+    void PowerBarTwo()
+    {
+        cubes[number].GetComponent<MeshRenderer>().material = cubeColours[1];
+        number--;
+
+        if (number == 0)
+        {
+            number = 0;
+            CancelInvoke("PowerBarTwo");
+            InvokeRepeating("PowerBar", .05f, .05f);
         }
     }
 
     // Update is called once per frame
-    void FixedUpdate()  
+    void FixedUpdate()
     {
         
-            if (Input.GetButton("Right")) {
+            if (Input.GetButton("Right") && shotTaken == false) {
             switch (number)
             {
                 case 0:
@@ -159,14 +178,16 @@ public class player : MonoBehaviour
                     break;
 
             }
-            
-            
+            shotTaken = true;
             CancelInvoke("PowerBar");
+            CancelInvoke("PowerBarTwo");
             rigid.AddForce(Vector3.forward * power);
             rigid.AddForce(Vector3.up * power);
             rigid.useGravity = true;
         }
     }
+
+   
 
     private void OnCollisionEnter(Collision collision)
     {
