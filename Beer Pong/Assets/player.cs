@@ -13,6 +13,9 @@ public class player : MonoBehaviour
     public Material[] cubeColours;
     private int number;
     private bool shotTaken;
+    public GameObject[] cams;
+    public GameObject[] playerCups;
+    public GameObject[] comCups;
 
     // Use this for initialization
     void Start()
@@ -50,11 +53,19 @@ public class player : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
-    void FixedUpdate()
+    public void Left()
     {
-        
-            if (Input.GetButton("Right") && shotTaken == false) {
+        Player.transform.Translate(new Vector3(-1, 0, 0));
+    }
+    
+    public void Right()
+    {
+        Player.transform.Translate(new Vector3(1, 0, 0));
+    }
+
+    // Update is called once per frame
+    public void Power()
+    {
             switch (number)
             {
                 case 0:
@@ -184,7 +195,7 @@ public class player : MonoBehaviour
             rigid.AddForce(Vector3.forward * power);
             rigid.AddForce(Vector3.up * power);
             rigid.useGravity = true;
-        }
+
     }
 
    
@@ -199,7 +210,11 @@ public class player : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Trigger");
+        if(other.gameObject.name == "switchCam")
+        {
+            cams[0].SetActive(false);
+            cams[1].SetActive(true);
+        }
     }
 
     private void OnCollisionExit(Collision collision)

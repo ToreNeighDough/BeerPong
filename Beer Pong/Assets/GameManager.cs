@@ -9,7 +9,8 @@ public class GameManager : MonoBehaviour {
     {
         MAINMENU,
         GAME,
-        SETTINGS
+        SETTINGS,
+        PAUSEMENU
     }
 
     public GameStates gameStates;
@@ -28,7 +29,7 @@ public class GameManager : MonoBehaviour {
     }
 
 	// Use this for initialization
-	void Start () {
+	public void Start () {
         gameStates = GameStates.MAINMENU;
         ChangeState();
 	}
@@ -39,6 +40,26 @@ public class GameManager : MonoBehaviour {
         ChangeState();
     }
 
+    public void PauseMenu()
+    {
+        gameStates = GameStates.PAUSEMENU;
+        ChangeState();
+        Time.timeScale = 0;
+    }
+
+    public void Resume()
+    {
+        gameStates = GameStates.GAME;
+        ChangeState();
+        Time.timeScale = 1;
+    }
+
+    /*public void MAINMENU()
+    {
+        gameStates = GameStates.MAINMENU;
+        ChangeState();
+    }*/
+
     void ChangeState()
     {
         switch (gameStates)
@@ -46,19 +67,30 @@ public class GameManager : MonoBehaviour {
             case GameStates.MAINMENU:
                 states[0].SetActive(true);
                 states[1].SetActive(false);
-                states[2].SetActive(false); 
+                states[2].SetActive(false);
+                states[3].SetActive(false); 
                 break;
 
             case GameStates.GAME:
                 states[0].SetActive(false);
                 states[1].SetActive(true);
                 states[2].SetActive(false);
+                states[3].SetActive(false);
                 break;
 
             case GameStates.SETTINGS:
                 states[0].SetActive(false);
                 states[1].SetActive(false);
                 states[2].SetActive(true);
+                states[3].SetActive(false);
+
+                break;
+
+           case GameStates.PAUSEMENU:
+                states[0].SetActive(false);
+                states[1].SetActive(false);
+                states[2].SetActive(false);
+                states[3].SetActive(true);
 
                 break;
         }
