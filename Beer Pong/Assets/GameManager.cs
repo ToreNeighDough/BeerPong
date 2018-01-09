@@ -29,7 +29,8 @@ public class GameManager : MonoBehaviour {
     }
 
 	// Use this for initialization
-	public void Start () {
+	public void Start ()
+    {
         gameStates = GameStates.MAINMENU;
         ChangeState();
 	}
@@ -54,11 +55,11 @@ public class GameManager : MonoBehaviour {
         Time.timeScale = 1;
     }
 
-    /*public void MAINMENU()
+    public void MAINMENU()
     {
         gameStates = GameStates.MAINMENU;
         ChangeState();
-    }*/
+    }
 
     void ChangeState()
     {
