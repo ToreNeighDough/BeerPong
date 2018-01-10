@@ -17,8 +17,11 @@ MonoBehaviour:
     y: 43
     width: 1366
 <<<<<<< HEAD
+<<<<<<< HEAD
     height: 695
 =======
+=======
+>>>>>>> parent of 4ebb13f... peerbong
     height: 685
 >>>>>>> parent of 4ebb13f... peerbong
   m_ShowMode: 4
@@ -55,8 +58,11 @@ MonoBehaviour:
     y: 0
     width: 1366
 <<<<<<< HEAD
+<<<<<<< HEAD
     height: 695
 =======
+=======
+>>>>>>> parent of 4ebb13f... peerbong
     height: 685
 >>>>>>> parent of 4ebb13f... peerbong
   m_MinSize: {x: 950, y: 542}
@@ -80,6 +86,7 @@ MonoBehaviour:
     y: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 324
     height: 767
   m_MinSize: {x: 277, y: 71}
@@ -90,6 +97,8 @@ MonoBehaviour:
   m_Selected: 0
   m_LastSelected: 0
 =======
+=======
+>>>>>>> parent of 4ebb13f... peerbong
 =======
 >>>>>>> parent of 4ebb13f... peerbong
     width: 1366
@@ -129,6 +138,9 @@ MonoBehaviour:
     y: 675
 =======
     y: 665
+<<<<<<< HEAD
+>>>>>>> parent of 4ebb13f... peerbong
+=======
 >>>>>>> parent of 4ebb13f... peerbong
     width: 1366
     height: 20
@@ -166,12 +178,20 @@ MonoBehaviour:
     y: 30
     width: 1366
 <<<<<<< HEAD
+<<<<<<< HEAD
     height: 645
   m_MinSize: {x: 883, y: 492}
   m_MaxSize: {x: 16008, y: 14042}
   vertical: 0
   controlID: 893
 >>>>>>> 8fca281e6c4dcc9e44624b046c81118071e86290
+=======
+    height: 635
+  m_MinSize: {x: 887, y: 492}
+  m_MaxSize: {x: 16012, y: 14042}
+  vertical: 0
+  controlID: 464
+>>>>>>> parent of 4ebb13f... peerbong
 =======
     height: 635
   m_MinSize: {x: 887, y: 492}
@@ -200,6 +220,7 @@ MonoBehaviour:
     y: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1600
     height: 817
   m_MinSize: {x: 950, y: 300}
@@ -212,6 +233,14 @@ MonoBehaviour:
   vertical: 1
   controlID: 894
 >>>>>>> 8fca281e6c4dcc9e44624b046c81118071e86290
+=======
+    width: 1037
+    height: 635
+  m_MinSize: {x: 610, y: 492}
+  m_MaxSize: {x: 12010, y: 14042}
+  vertical: 1
+  controlID: 465
+>>>>>>> parent of 4ebb13f... peerbong
 =======
     width: 1037
     height: 635
@@ -238,6 +267,7 @@ MonoBehaviour:
     y: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1600
     height: 30
   m_MinSize: {x: 0, y: 0}
@@ -251,6 +281,14 @@ MonoBehaviour:
   vertical: 0
   controlID: 895
 >>>>>>> 8fca281e6c4dcc9e44624b046c81118071e86290
+=======
+    width: 1037
+    height: 364
+  m_MinSize: {x: 610, y: 221}
+  m_MaxSize: {x: 12010, y: 4021}
+  vertical: 0
+  controlID: 466
+>>>>>>> parent of 4ebb13f... peerbong
 =======
     width: 1037
     height: 364
@@ -312,6 +350,7 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1276
     height: 767
   m_MinSize: {x: 406, y: 492}
@@ -324,6 +363,8 @@ MonoBehaviour:
     width: 352
     height: 370
 =======
+=======
+>>>>>>> parent of 4ebb13f... peerbong
     width: 354
     height: 364
 >>>>>>> parent of 4ebb13f... peerbong
@@ -353,6 +394,7 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 0
     y: 0
     width: 1276
@@ -367,6 +409,8 @@ MonoBehaviour:
     width: 481
     height: 370
 =======
+=======
+>>>>>>> parent of 4ebb13f... peerbong
     x: 556
     y: 0
     width: 481
@@ -443,8 +487,11 @@ MonoBehaviour:
     y: 0
     width: 329
 <<<<<<< HEAD
+<<<<<<< HEAD
     height: 645
 =======
+=======
+>>>>>>> parent of 4ebb13f... peerbong
     height: 635
 >>>>>>> parent of 4ebb13f... peerbong
   m_MinSize: {x: 277, y: 71}
@@ -481,8 +528,11 @@ MonoBehaviour:
     y: 92
     width: 477
 <<<<<<< HEAD
+<<<<<<< HEAD
     height: 349
 =======
+=======
+>>>>>>> parent of 4ebb13f... peerbong
     height: 343
 >>>>>>> parent of 4ebb13f... peerbong
   m_PersistentViewDataDictionary: {fileID: 0}
@@ -497,9 +547,12 @@ MonoBehaviour:
     m_HBaseRangeMin: -238.5
     m_HBaseRangeMax: 238.5
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_VBaseRangeMin: -166
     m_VBaseRangeMax: 166
 =======
+=======
+>>>>>>> parent of 4ebb13f... peerbong
     m_VBaseRangeMin: -163
     m_VBaseRangeMax: 163
 >>>>>>> parent of 4ebb13f... peerbong
@@ -521,9 +574,15 @@ MonoBehaviour:
       y: 17
       width: 477
 <<<<<<< HEAD
+<<<<<<< HEAD
       height: 332
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 238.5, y: 166}
+=======
+      height: 326
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 238.5, y: 163}
+>>>>>>> parent of 4ebb13f... peerbong
 =======
       height: 326
     m_Scale: {x: 1, y: 1}
@@ -537,10 +596,13 @@ MonoBehaviour:
       serializedVersion: 2
       x: -238.5
 <<<<<<< HEAD
+<<<<<<< HEAD
       y: -166
       width: 477
       height: 332
 =======
+=======
+>>>>>>> parent of 4ebb13f... peerbong
       y: -163
       width: 477
       height: 326
@@ -550,7 +612,11 @@ MonoBehaviour:
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LastWindowPixelSize: {x: 477, y: 349}
+=======
+  m_LastWindowPixelSize: {x: 477, y: 343}
+>>>>>>> parent of 4ebb13f... peerbong
 =======
   m_LastWindowPixelSize: {x: 477, y: 343}
 >>>>>>> parent of 4ebb13f... peerbong
@@ -582,6 +648,7 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 468
     y: 181
     width: 973
@@ -599,6 +666,8 @@ MonoBehaviour:
     m_LastClickedID: 0
     m_ExpandedIDs: 9efbffff00000000b4290000582b0000762b0000b82b0000
 =======
+=======
+>>>>>>> parent of 4ebb13f... peerbong
     x: 0
     y: 92
     width: 200
@@ -609,6 +678,9 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
     m_ExpandedIDs: eedfffff00000000d2300000
+<<<<<<< HEAD
+>>>>>>> parent of 4ebb13f... peerbong
+=======
 >>>>>>> parent of 4ebb13f... peerbong
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -655,11 +727,14 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 206
     y: 92
     width: 348
     height: 349
 =======
+=======
+>>>>>>> parent of 4ebb13f... peerbong
     x: 204
     y: 92
     width: 350
@@ -742,6 +817,7 @@ MonoBehaviour:
     x: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 556
     width: 1274
     height: 282
@@ -750,6 +826,8 @@ MonoBehaviour:
     width: 1035
     height: 254
 =======
+=======
+>>>>>>> parent of 4ebb13f... peerbong
     y: 456
     width: 1035
     height: 250
@@ -780,6 +858,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_SelectedIDs: 3a270000
     m_LastClickedID: 10042
     m_ExpandedIDs: 000000007a270000f2270000f4270000f627000000ca9a3bffffff7f
@@ -788,6 +867,11 @@ MonoBehaviour:
     m_LastClickedID: 10094
     m_ExpandedIDs: 000000006e270000c027000044280000b82800002229000000ca9a3bffffff7f
 >>>>>>> 8fca281e6c4dcc9e44624b046c81118071e86290
+=======
+    m_SelectedIDs: 7a2d0000
+    m_LastClickedID: 11642
+    m_ExpandedIDs: 000000007a2d0000a62d0000ee2d00002e2e00005c2e000000ca9a3bffffff7f
+>>>>>>> parent of 4ebb13f... peerbong
 =======
     m_SelectedIDs: 7a2d0000
     m_LastClickedID: 11642
@@ -822,10 +906,14 @@ MonoBehaviour:
     m_LastClickedID: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 000000007a270000f2270000f4270000f6270000
 =======
     m_ExpandedIDs: 000000006e270000c027000044280000b82800002229000000ca9a3bffffff7f
 >>>>>>> 8fca281e6c4dcc9e44624b046c81118071e86290
+=======
+    m_ExpandedIDs: 000000007a2d0000a62d0000ee2d00002e2e00005c2e000000ca9a3bffffff7f
+>>>>>>> parent of 4ebb13f... peerbong
 =======
     m_ExpandedIDs: 000000007a2d0000a62d0000ee2d00002e2e00005c2e000000ca9a3bffffff7f
 >>>>>>> parent of 4ebb13f... peerbong
@@ -947,6 +1035,7 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     x: 0
@@ -1138,6 +1227,8 @@ MonoBehaviour:
     width: 327
     height: 624
 =======
+=======
+>>>>>>> parent of 4ebb13f... peerbong
     x: 1039
     y: 92
     width: 327
