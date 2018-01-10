@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -953,6 +953,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalPosition: {x: 411.59998, y: -52.699997, z: -456.8}
 =======
   m_LocalPosition: {x: 0, y: 0, z: -365.1}
@@ -960,6 +961,9 @@ RectTransform:
 =======
   m_LocalPosition: {x: 0, y: 0, z: -365.1}
 >>>>>>> 8fca281e6c4dcc9e44624b046c81118071e86290
+=======
+  m_LocalPosition: {x: 0, y: 0, z: -181}
+>>>>>>> parent of 4ebb13f... peerbong
   m_LocalScale: {x: 0.2, y: 0.5, z: 0.5}
   m_Children:
   - {fileID: 1222142486}
@@ -970,6 +974,7 @@ RectTransform:
   m_AnchorMax: {x: 0, y: 0.5}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_AnchoredPosition: {x: 722.6, y: -52.699997}
 =======
   m_AnchoredPosition: {x: 121, y: -7}
@@ -977,6 +982,9 @@ RectTransform:
 =======
   m_AnchoredPosition: {x: 121, y: -7}
 >>>>>>> 8fca281e6c4dcc9e44624b046c81118071e86290
+=======
+  m_AnchoredPosition: {x: 210, y: -100}
+>>>>>>> parent of 4ebb13f... peerbong
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &338515095
@@ -2890,6 +2898,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalPosition: {x: 1.300003, y: -54.6, z: -550.4}
 =======
   m_LocalPosition: {x: 0, y: 0, z: -432.5}
@@ -2897,6 +2906,9 @@ RectTransform:
 =======
   m_LocalPosition: {x: 0, y: 0, z: -432.5}
 >>>>>>> 8fca281e6c4dcc9e44624b046c81118071e86290
+=======
+  m_LocalPosition: {x: 0, y: 0, z: -309}
+>>>>>>> parent of 4ebb13f... peerbong
   m_LocalScale: {x: 0.35, y: 0.2, z: 1}
   m_Children:
   - {fileID: 1055046616}
@@ -4920,6 +4932,7 @@ MonoBehaviour:
   - {fileID: 861996095}
   - {fileID: 2040624029}
   - {fileID: 1556223819}
+<<<<<<< HEAD
   - {fileID: 141225227}
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4932,6 +4945,9 @@ Transform:
 >>>>>>> 8fca281e6c4dcc9e44624b046c81118071e86290
 =======
 >>>>>>> 8fca281e6c4dcc9e44624b046c81118071e86290
+=======
+  - {fileID: 1556223819}
+>>>>>>> parent of 4ebb13f... peerbong
 --- !u!1001 &1452416307
 Prefab:
   m_ObjectHideFlags: 0
@@ -5499,6 +5515,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalPosition: {x: 82.8, y: -52.800003, z: -466.4}
 =======
   m_LocalPosition: {x: 0, y: 0, z: -318}
@@ -5506,6 +5523,9 @@ RectTransform:
 =======
   m_LocalPosition: {x: 0, y: 0, z: -318}
 >>>>>>> 8fca281e6c4dcc9e44624b046c81118071e86290
+=======
+  m_LocalPosition: {x: 0, y: 0, z: -181}
+>>>>>>> parent of 4ebb13f... peerbong
   m_LocalScale: {x: 0.19999, y: 0.49999523, z: 0.49999523}
   m_Children:
   - {fileID: 641834500}
@@ -5516,6 +5536,7 @@ RectTransform:
   m_AnchorMax: {x: 0.5, y: 0.5}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_AnchoredPosition: {x: 82.8, y: -52.800003}
 =======
   m_AnchoredPosition: {x: 95, y: -100}
@@ -5523,6 +5544,9 @@ RectTransform:
 =======
   m_AnchoredPosition: {x: 95, y: -100}
 >>>>>>> 8fca281e6c4dcc9e44624b046c81118071e86290
+=======
+  m_AnchoredPosition: {x: 115, y: -100}
+>>>>>>> parent of 4ebb13f... peerbong
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1637241448
